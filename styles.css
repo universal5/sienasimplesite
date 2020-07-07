@@ -34,14 +34,8 @@ p {	padding:0px;}
 .logo img { height:150px;}
 
 .HeaderRight {
-	display:table-cell; border:0px solid red; vertical-align:top;
+	display:table-cell; border:0px solid red; vertical-align:bottom;
 }
-
-.nav { border: 0px solid green; width:100%; height:60px; text-align:right; }
-.nav ul {list-style-type: none; border: 0px solid yellow; display:inline-block; margin:0; }
-.nav li { display:inline-block; padding:3px 15px; border:0px solid yellow;}
-.nav a {color:/*#f3d005*/ /*#E69C22*/ #F6B95A; text-decoration:none; }
-
 
 .HeaderRight h1{color:#eed; 			
 		font-size: 55px;
@@ -69,29 +63,19 @@ p {	padding:0px;}
 
 @media only screen and (max-width: 755px) {
     .logo img { height:135px;}
-	.nav ul{ 
-		/*max-width:300px;*/
-  	}	
 }
 
 @media only screen and (max-width: 630px) {
-	.nav ul{ 
-		/*max-width:300px;   */     
-  	}	
     .HeaderRight h1{ font-size: 50px; }
 }
 
 @media only screen and (max-width: 600px) {
     .logo img { height:110px;}
-	.nav ul{ 
-		/*max-width:300px;*/
-  	}	
 }
 @media only screen and (max-width: 482px) {
     .HeaderRight h1{padding-right: 0px;} 
 }
 @media only screen and (max-width: 450px) {
-    .nav{height: auto;}
     .HeaderRight h1{font-size: 45px; }  
     .divTable {width:100%;}
     .divTableRow {width:97%;}
