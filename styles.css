@@ -1,0 +1,106 @@
+body{ 	background-color:#888;
+	    color:#555;
+		font-family: 'Arimo', sans-serif;
+        font-size: 20px;
+		margin:3px;
+		padding:0px;					
+		position:relative;
+		width:100%;
+		max-width:1000px;
+		margin:auto;
+        height:auto;
+	}
+
+p {	padding:0px;}
+
+.PageWrap{
+	background-color: #fff9eb;
+	height:inherit;	
+}
+
+.MenuAndHeader {
+	background-color: /*#1A1D24*/ #000;
+	background-image: url(bg-yellow-verticals.jpg);
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #F6B95A;
+	display:table;
+	width:100%;
+}
+
+.logo {
+	display:table-cell; width: 105px; border:0px solid red; vertical-align: middle;
+}
+
+.logo img { height:150px;}
+
+.HeaderRight {
+	display:table-cell; border:0px solid red; vertical-align:top;
+}
+
+.nav { border: 0px solid green; width:100%; height:60px; text-align:right; }
+.nav ul {list-style-type: none; border: 0px solid yellow; display:inline-block; margin:0; }
+.nav li { display:inline-block; padding:3px 15px; border:0px solid yellow;}
+.nav a {color:/*#f3d005*/ /*#E69C22*/ #F6B95A; text-decoration:none; }
+
+
+.HeaderRight h1{color:#eed; 			
+		font-size: 55px;
+		border: 0px solid blue;
+		margin:0; 
+		padding-left:0px; padding-right: 105px; padding-bottom:0px;
+        text-align: center;
+	}
+
+.content {
+    padding: 0px 15px;
+}
+
+.divTable {width:450px; margin:auto; }
+.divTable a {text-decoration: none; color: #d62;}
+.divTableRow {
+    clear: both; margin: 10px 0px; border: 0px solid #dc8; display:table;
+}
+.divTableCell {
+	float: left; padding: 5px; width: 100%;
+}
+.divTableCell:nth-child(odd){ }
+.divTableCell:nth-child(even){width:425px; background-color: antiquewhite;}
+.img-map {width:100%;}
+
+@media only screen and (max-width: 755px) {
+    .logo img { height:135px;}
+	.nav ul{ 
+		/*max-width:300px;*/
+  	}	
+}
+
+@media only screen and (max-width: 630px) {
+	.nav ul{ 
+		/*max-width:300px;   */     
+  	}	
+    .HeaderRight h1{ font-size: 50px; }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo img { height:110px;}
+	.nav ul{ 
+		/*max-width:300px;*/
+  	}	
+}
+@media only screen and (max-width: 482px) {
+    .HeaderRight h1{padding-right: 0px;} 
+}
+@media only screen and (max-width: 450px) {
+    .nav{height: auto;}
+    .HeaderRight h1{font-size: 45px; }  
+    .divTable {width:100%;}
+    .divTableRow {width:97%;}
+    .divTableCell:nth-child(odd){width:100%; }
+    .divTableCell:nth-child(even){width:100%;}
+    .img-map {width:100%;}    
+}
+
+@media only screen and (max-width: 350px) {
+    .HeaderRight h1{font-size: 40px; }  
+}
+

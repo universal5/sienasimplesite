@@ -1,0 +1,54 @@
+
+.menu-mobile{	
+	padding:5px;
+	min-height:40px;
+	color:#F6B95A;
+	background-color:#000;
+    
+    width:180px;
+    position:absolute; top:0px; right:0px;
+}
+
+.menu-icon-div {position:absolute; right:10px; top:10px; font-size:20px; padding:0 0 7px 10px; border-radius:3px;}
+.menu-icon-div p {margin:9px 45px 0 0;}
+
+.menu-icon-bars{ height:22px; position:absolute; top:5px; right:10px;}
+
+.icon-bar {margin-top:6px; width:26px; height:2px; border-radius:1px; border:0px solid #F6B95A; background-color:#F6B95A;}
+
+.menu-body{
+	margin-top:50px; color:#fff;
+	max-height:0; overflow:hidden; -webkit-transition:all 0.5s linear; transition:all 0.5s ease;
+}
+
+.menu-check {width:115px; height:42px; cursor:pointer; opacity:0.0; position:absolute; right:7px; z-index:2; }
+.menu-check:checked ~ .menu-body {max-height:500px; overflow-y:hidden; -webkit-transition:all 1s ease; transition:all 1s ease;} /* If menu options change then adjust max-height to height when all options are expanded */
+
+.menu-check:hover ~ .menu-icon-div {background-color:rgba(0,250,250,0.3);}
+
+.menu-mobile:hover .menu-body {max-height:500px; overflow-y:hidden; -webkit-transition:all 1s ease; transition:all 1s ease;}
+
+
+.icon-bar{
+    -webkit-transition: all 0.3s;
+	transition: all 0.3s;  
+}
+.menu-check:checked ~ .menu-icon-div .icon-bar:nth-last-child(3) { /* top */
+  -webkit-transform: rotate(45deg) translate(5.5px, 5.5px); /* safari */
+          transform: rotate(45deg) translate(5.5px, 5.5px); /* chrome, firefox */	
+      -ms-transform: rotate(45deg) translate(5.5px, 5.5px); /* ms */
+}
+.menu-check:checked ~ .menu-icon-div .icon-bar:nth-last-child(2) {opacity: 0.0;} /* middle */
+
+.menu-check:checked ~ .menu-icon-div .icon-bar:nth-last-child(1) {  /* bottom */
+ -webkit-transform: rotate(-45deg) translate(5.5px, -5.5px); /* safari */
+   		 transform: rotate(-45deg) translate(5.5px, -5.5px); /* chrome, firefox */
+	 -ms-transform: rotate(-45deg) translate(5.5px, -5.5px); /* ms */
+}
+
+.menu-body a{color:#F6B95A; text-decoration:none; font-size:18px; line-height:38px;}
+.menu-body div {padding:0px 10px; margin-right:5px; border-radius:3px;}
+.menu-body div:hover {background-color:#640;}
+.menu-body div a div{margin-left:20px;}
+.menu-body .highlight{color:#5EF;}
+
