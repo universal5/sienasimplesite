@@ -43,7 +43,7 @@
 	 -ms-transform: rotate(-45deg) translate(5.5px, -5.5px); /* ms */
 }
 
-.menu-body a{color:#F6B95A; text-decoration:none; font-size:18px; line-height:50px;}
+.menu-body a{color:#F6B95A; text-decoration:none; font-size:22px; line-height:50px;}
 .menu-body div {padding:0px 10px; margin-right:5px; border-radius:3px;}
 .menu-body div:hover {background-color:#640;}
 .menu-body div a div{margin-left:20px;}
