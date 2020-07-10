@@ -20,8 +20,8 @@ p {	padding:0px;}
 
 .MenuAndHeader {
 	background-color: /*#1A1D24*/ #000;
-	background-image: url(bg-yellow-verticals.jpg);
-	background-repeat: no-repeat;
+	/*background-image: url(bg-yellow-verticals.jpg);
+	background-repeat: no-repeat;*/
 	border-bottom: 5px solid #F6B95A;
 	display:table;
 	width:100%;
