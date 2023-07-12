@@ -34,6 +34,7 @@ p {	padding:0px;}
 .logo img { height:150px;}
 
 .HeaderRight {
+	clear: both;
 	display:block; border:0px solid red; vertical-align:bottom;
 }
 
