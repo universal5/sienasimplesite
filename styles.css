@@ -34,7 +34,7 @@ p {	padding:0px;}
 .logo img { height:150px;}
 
 .HeaderRight {
-	display:table-cell; border:0px solid red; vertical-align:bottom;
+	display:block; border:0px solid red; vertical-align:bottom;
 }
 
 .HeaderRight h1{color:#eed; 			
