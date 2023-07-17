@@ -13,6 +13,8 @@ body{ 	background-color:#888;
 
 p {	padding:0px;}
 
+a {text-decoration: none; color: #d62;}
+
 .PageWrap{
 	background-color: #fff9eb;
 	height:inherit;	
