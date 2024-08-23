@@ -1,9 +1,9 @@
 
-.menu-mobile{	
+.menu-mobile{ z-index: 20;
 	padding:5px;
 	min-height:40px;
 	color:#F6B95A;
-	background-color:#000;
+	background-color:rgba(0, 0, 0, 0.699);
     
     width:250px;
     position:absolute; top:0px; right:0px;
@@ -17,12 +17,14 @@
 .icon-bar {margin-top:6px; width:26px; height:2px; border-radius:1px; border:0px solid #F6B95A; background-color:#F6B95A;}
 
 .menu-body{
-	margin-top:50px; color:#fff;
+	background-color: rgba(0, 0, 0, 0);
+	margin-top:50px; color:#3f0e0e; border:2px solid rgba(0, 0, 0, 0);
 	max-height:0; overflow:hidden; -webkit-transition:all 0.5s linear; transition:all 0.5s ease;
 }
 
 .menu-check {width:115px; height:42px; cursor:pointer; opacity:0.0; position:absolute; right:7px; z-index:2; }
-.menu-check:checked ~ .menu-body {max-height:500px; overflow-y:hidden; -webkit-transition:all 1s ease; transition:all 1s ease;} /* If menu options change then adjust max-height to height when all options are expanded */
+.menu-check:checked ~ .menu-body { border:2px solid #42331a; background-color: rgb(32, 18, 0);
+	max-height:500px; overflow-y:hidden; -webkit-transition:all 0.5s ease; transition:all 0.5s ease;} /* If menu options change then adjust max-height to height when all options are expanded */
 
 .menu-check:hover ~ .menu-icon-div {background-color:rgba(0,250,250,0.3);}
 
@@ -44,8 +46,8 @@
 }
 
 .menu-body a{color:#F6B95A; text-decoration:none; font-size:20px; line-height:44px;}
-.menu-body div {padding:0px 10px; margin-right:5px; border-radius:3px;}
-.menu-body div:hover {background-color:#640;}
+.menu-body div {padding:0px 10px; margin-right:0px; border-radius:0px; border-bottom:1px solid #640;}
+.menu-body div:hover {background-color:#640; }
 .menu-body div a div{margin-left:20px;}
 .menu-body .highlight{color:#5EF;}
 
