@@ -1,9 +1,9 @@
 body {font-family: 'Arimo', sans-serif; font-size: 20px;} 
 
-.menu_div_iframe {position:absolute; top:0px; right:0px; width:auto; height:auto; }
+.menu_div_iframe {position:absolute; top:0px; right:0px; width:auto; height:auto; z-index: 20;}
 .menu_div_iframe iframe {height:425px; width:100%;border:none;overflow:auto}
 
-.menu-mobile{ z-index: 20;
+.menu-mobile{
 	padding:5px;
 	min-height:40px;
 	color:#F6B95A;
